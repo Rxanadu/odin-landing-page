@@ -1,0 +1,164 @@
+body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .hero, footer {
+    background-color: #1f2937;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    flex: 1;
+    margin: 0 20%;
+  }
+  
+  .hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .hero-header h1 {
+    color: #f9faf8;
+    font-size: 24px;
+  }
+  
+  .hero-header nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .hero-intro {
+    display: flex;
+    height: 300px;
+    gap: 40px;
+    margin-top:45px;
+    margin-bottom:45px;
+  }
+  
+  .hero-left,
+  .hero-right {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .hero-left h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+  }
+  
+  a,
+  .hero-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+  }
+  
+  .hero-right {
+    background-color: grey;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+  }
+  
+  button {
+    border-radius: 10px;
+    font-size:18px;
+    padding:10px 25px;
+    color: #e5e7eb;
+  }
+  
+  button,
+  .action-card {
+    background-color: #3882f6;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:25px;
+  }
+  
+  .info h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align:center;
+  }
+  
+  .info-cards {
+    display: flex;
+    justify-content:center;  
+  }
+  
+  .info-card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  
+  .info-card img{
+    border: 3px solid blue;
+    height:150px;
+    width:150px;
+    border-radius: 15px;
+  }
+  
+  .info-card p{
+    text-align: center;
+  }
+  
+  .quote {
+      background-color: #e5e7eb;
+    padding:25px;
+  }
+  
+  .quote-text {
+      font-size: 36px;
+      font-style: italic;
+      color: #1f2937;
+  }
+  
+  .quote-author{
+    margin-left:auto;
+    font-weight:bold;
+    font-size:25px;
+  }
+  
+  .action-card{
+    margin:25px;
+    padding:25px 100px;
+    border-radius: 15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  
+  .call-left h2, .call-left p{
+    color:white;
+  }
+  
+  .action-card button{
+    border: 3px solid white;
+  }
+  
+  footer{
+    padding-top:25px;
+    padding-bottom:25px;
+  }
+  
+  footer p{
+    text-align:center;
+    color:white;
+    font-size: 20px;
+  }
